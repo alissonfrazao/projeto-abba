@@ -82,9 +82,10 @@
      color: #fff;
  }
  .img-logo{
-    
-    width: 300px;
+    display: flexbox; 
+    width: 200px;
  }
+
  @media only screen and (max-width: 768px) {
      .nav-menu {
          position: fixed;
