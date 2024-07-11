@@ -79,12 +79,29 @@
      font-size: 3rem;
      font-weight: 500;
      /* color: #482ff7; */
-     color: #fff;
+     color: #fff; 
+     
+
  }
  .img-logo{
-    display: flexbox; 
-    width: 200px;
+    display: flex; 
+    width: 200px; 
+     justify-content: flex-start;
+     align-items:flex-start;
+    
  }
+
+.img-logo-face {
+
+    width: 80px
+
+}
+
+.img-logo-insta {
+
+    width: 80px;
+}
+
 
  @media only screen and (max-width: 768px) {
      .nav-menu {
